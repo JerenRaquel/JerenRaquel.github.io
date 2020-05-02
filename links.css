@@ -1,0 +1,11 @@
+.links {
+  color: rgb(135, 197, 236);
+}
+
+#link1 {
+  display: inline;
+}
+
+#link1:hover {
+  display: inline;
+}

@@ -1,0 +1,65 @@
+header {
+  background-color: rgb(44, 45, 97);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgba(69, 170, 228, 0.979);
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 35%;
+  height: 500px;
+  background: rgba(0, 100, 146, 0.664);
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: right;
+  width: 65%;
+  text-align: center;
+  background-color: rgba(0, 68, 100, 0.657);
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(44, 45, 97);
+  padding: 10px;
+  text-align: center;
+  /* float: bottom; */
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.section_titles {
+  color: rgb(202, 232, 251);
+  width: 80%;
+  font-size: 150%;
+  text-align: center;
+}
+
+.list {
+  text-align: left;
+  margin-left: 5%;
+  font-size: 20px;
+}
