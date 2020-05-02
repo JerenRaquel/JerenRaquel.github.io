@@ -8,7 +8,7 @@ header {
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
-  width: 35%;
+  width: 65%;
   height: 500px;
   background: rgba(0, 100, 146, 0.664);
 }
@@ -21,7 +21,7 @@ nav ul {
 
 article {
   float: right;
-  width: 65%;
+  width: 35%;
   text-align: center;
   background-color: rgba(0, 68, 100, 0.657);
   height: 500px; /* only for demonstration, should be removed */
@@ -62,4 +62,11 @@ footer {
   text-align: left;
   margin-left: 5%;
   font-size: 20px;
+  list-style: none;
+}
+
+.titles {
+  color: rgb(202, 232, 251);
+  font-size: 150%;
+  text-align: center;
 }
